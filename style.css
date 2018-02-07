@@ -95,7 +95,7 @@ ul{
 
 .card{
   background-color: rgba(255, 255, 255, 0.8);
-  width: 600px;
+  /*width: 600px;*/
   border-radius: 7px;
   box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.3);
   padding: 20px;
@@ -120,13 +120,25 @@ ul{
 }
 
 .container {
-  width: 700px;    /*This sets the width*/
-  margin: 0 auto;  /*This automatically sets left/right margins*/
+  /*width: 700px;*/    /*This sets the width*/
+  margin: 0 15px 0 145px;  /*This automatically sets left/right margins*/
+  /*margin-left: 145px;*/
 }
 
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 10px;
+  background-color: #F6E1B8;
+  font-size: 120%;
+}
 
-
-
+ .increase-margin{
+  margin: 5px
+ }
 
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
